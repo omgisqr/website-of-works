@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    		<link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="website4.css">
+</head>
+
+<body>
+  <div class="a">
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="个人介绍.html">个人介绍</a></li>
+          <li><a href="公众号设计.html">头图设计</a></li>
+          <li><a href="H5设计.html">长图设计</a></li>
+          <li><a href="其他内容.html">其他内容</a></li>
+        </ul>
+      </nav>
+      <img src="img/menu.png" class="menu-icon" />
+    </div>
+    <section>
+        <img
+            src="bg.jpg"
+            id="bg"
+        >
+        <img
+            src="moon.png"
+            id="moon"
+        >
+        <img
+            src="mountain.png"
+            id="mountain"
+        >
+        <img
+            src="road.png"
+            id="road"
+            road
+        >
+        <h2 id="text">
+            Moon Light
+        </h2>
+    </section>
+    <script>
+        let bg = document.querySelector('#bg')
+        let moon = document.querySelector('#moon')
+        let mountain = document.querySelector('#mountain')
+        let road = document.querySelector('#road')
+        let text = document.querySelector('#text')
+
+        window.addEventListener('scroll', () => {
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+
+            text.style.top = value * 1 + 'px';
+
+
+        })
+    </script>
+    <div class="first">
+      <img src="文本框.png" alt="" >
+    </div>
+
+    <div class="body">
+      <div class="container">
+        <ul>
+          <!-- shift+alt可以同时选中多行的同一个位置 -->
+          <!-- 单按alt,然后点击鼠标,可以同时选中多行的不同位置 -->
+          <li><img src="img/1.jpg" /></li>
+          <li><img src="img/2.jpg" /></li>
+          <li><img src="img/3.jpg" /></li>
+          <li><img src="img/4.jpg" /></li>
+          <li><img src="img/5.jpg" /></li>
+          <!-- 大图片 -->
+          <li class="bigImg"></li>
+          <!-- 移动框 -->
+          <li class="frame"></li>
+        </ul>
+      </div>
+      </div>
+      <div class="first">
+        <img src="文本框.png" alt="" >
+      </div>
+  <div class="body">
+      <div class="container">
+        <ul>
+          <!-- shift+alt可以同时选中多行的同一个位置 -->
+          <!-- 单按alt,然后点击鼠标,可以同时选中多行的不同位置 -->
+          <li><img src="img/1.jpg" /></li>
+          <li><img src="img/2.jpg" /></li>
+          <li><img src="img/3.jpg" /></li>
+          <li><img src="img/4.jpg" /></li>
+          <li><img src="img/5.jpg" /></li>
+          <!-- 大图片 -->
+          <li class="bigImg"></li>
+          <!-- 移动框 -->
+          <li class="frame"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="first">
+      <img src="文本框.png" alt="" >
+    </div>
+<div class="body">
+    <div class="container">
+      <ul>
+        <!-- shift+alt可以同时选中多行的同一个位置 -->
+        <!-- 单按alt,然后点击鼠标,可以同时选中多行的不同位置 -->
+        <li><img src="img/1.jpg" /></li>
+        <li><img src="img/2.jpg" /></li>
+        <li><img src="img/3.jpg" /></li>
+        <li><img src="img/4.jpg" /></li>
+        <li><img src="img/5.jpg" /></li>
+        <!-- 大图片 -->
+        <li class="bigImg"></li>
+        <!-- 移动框 -->
+        <li class="frame"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="first">
+    <img src="文本框.png" alt="" >
+  </div>
+  <div class="body2">
+    <div class="box2">
+      <h1>bilibili</h1>
+    </div>
+    <div class="box2">
+      <h1>bilibili</h1>
+    </div>
+    <div class="box2">
+      <h1>bilibili</h1>
+    </div>
+  </div>
+  <div class="first">
+    <img src="文本框.png" alt="" >
+  </div>
+
+
+  <ul class="box">
+<li>
+  <img src="大门.png" alt="">
+</li>
+<li>
+  <img src="室内.png" alt="">
+</li>
+<li>
+  <img src="走廊.png" alt="">
+</li>
+<li>
+  <img src="修复.png" alt="">
+</li>
+<li>
+  <img src="盾牌.png" alt="">
+</li>
+</ul>
+<div class="first">
+    <img src="文本框.png" alt="">
+</div>
+
+<ul class="box">
+<li>
+<img src="我还要一块饼干/4.png" alt="">
+</li>
+<li>
+<img src="我还要一块饼干/2.png" alt="">
+</li>
+<li>
+<img src="我还要一块饼干/3.png" alt="">
+</li>
+<li>
+<img src="我还要一块饼干/1.png" alt="">
+</li>
+<li>
+<img src="我还要一块饼干/5.png" alt="">
+</li>
+</ul>
+
+
+
+    </body>
+
+    </html>
